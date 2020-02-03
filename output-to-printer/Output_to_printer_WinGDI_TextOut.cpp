@@ -1,9 +1,11 @@
 ﻿// исходный текст программы сохранен в кодировке UTF-8 с сигнатурой
 
-// Output_to_printer_WinGDI.cpp
+// Output_to_printer_WinGDI_TextOut.cpp
 // вывод на принтер с помощью набора функций Windows API с использованием
 // функций Windows GDI (graphics device interface — интерфейс графических
 // устройств)
+
+// для вывода строки на принтер используется функция TextOut
 
 #include <io.h>      // для функции _setmode
 #include <fcntl.h>   // для константы _O_U16TEXT
