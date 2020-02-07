@@ -1,11 +1,12 @@
 ﻿// исходный текст программы сохранен в кодировке UTF-8 с сигнатурой
 
-// Output_to_printer_WinGDI_3_Justify2.cpp
+// Output_to_printer_WinGDI_3_Justify3.cpp
 // вывод на принтер с помощью набора функций Windows API с использованием
 // функций Windows GDI (graphics device interface — интерфейс графических
 // устройств)
 
 // для вывода текста на устройство используется функция TextOut
+// (3 этап: производим выравнивание каждой строки текста по обеим сторонам)
 
 #include <io.h>      // для функции _setmode
 #include <fcntl.h>   // для константы _O_U16TEXT
