@@ -14,7 +14,7 @@ LRESULT CALLBACK WndProc(HWND, UINT, WPARAM, LPARAM); // прототип
 int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
                      LPSTR lpCmdLine, int nCmdShow)
 {
-    LPCWSTR CLASS_NAME = L"MainWindow";
+    LPCWSTR CLASS_NAME{ L"MainWindow" };
 
     // 1. Создание и регистрация класса окна
     WNDCLASS wc{};
