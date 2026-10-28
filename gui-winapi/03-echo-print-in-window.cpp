@@ -7,7 +7,7 @@
 #include <string>    // для std::wstring
 
 #pragma comment(lib, "user32.lib") // для разных функций WinAPI
-#pragma comment(lib, "gdi32.lib")  // для CreateSolidBrush
+#pragma comment(lib, "gdi32.lib")  // для CreateSolidBrush, SetBkMode
 
 LRESULT CALLBACK WndProc(HWND, UINT, WPARAM, LPARAM); // прототип
 
